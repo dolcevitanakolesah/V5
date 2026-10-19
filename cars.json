@@ -1,0 +1,56 @@
+[
+  {
+    "folder": "01",
+    "prefix": "AlfaGTJunior",
+    "year": "1970",
+    "name": "Alfa Romeo GT 1300 Junior"
+  },
+  {
+    "folder": "02",
+    "prefix": "Testarossa",
+    "year": "1991",
+    "name": "Ferrari Testarossa"
+  },
+  {
+    "folder": "03",
+    "prefix": "Fiat500",
+    "year": "1970",
+    "name": "Fiat 500L"
+  },
+  {
+    "folder": "04",
+    "prefix": "Carrera",
+    "year": "1990",
+    "name": "Porsche 964"
+  },
+  {
+    "folder": "05",
+    "prefix": "DinoSpider",
+    "year": "1967",
+    "name": "Fiat Dino Spider"
+  },
+  {
+    "folder": "06",
+    "prefix": "Fulvia",
+    "year": "1974",
+    "name": "Lancia Fulvia Coupé"
+  },
+  {
+    "folder": "07",
+    "prefix": "Ghibli",
+    "year": "1969",
+    "name": "Maserati Ghibli"
+  },
+  {
+    "folder": "08",
+    "prefix": "Spider",
+    "year": "1971",
+    "name": "Alfa Romeo Spider"
+  },
+  {
+    "folder": "09",
+    "prefix": "Lamborghini350GT",
+    "year": "1965",
+    "name": "Lamborghini 350 GT"
+  }
+]
