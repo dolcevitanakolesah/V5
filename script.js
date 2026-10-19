@@ -7,6 +7,24 @@ let cars = [];
 const grid=document.getElementById('carGrid'),dialog=document.getElementById('galleryDialog'),galleryGrid=document.getElementById('galleryGrid'),lightbox=document.getElementById('lightbox'),lightboxContent=document.getElementById('lightboxContent');
 let activeItems=[],activeIndex=0;
 function path(car,file){return `assets/${car.folder}/${file}`}
+function ensureGalleryDescription(){
+ let description=document.getElementById('galleryDescription');
+ if(!description){
+  description=document.createElement('p');
+  description.id='galleryDescription';
+  description.className='gallery-description';
+  const title=document.getElementById('galleryTitle');
+  title.insertAdjacentElement('afterend',description);
+ }
+ Object.assign(description.style,{
+  color:'var(--muted, #777)',
+  fontSize:'14px',
+  lineHeight:'1.65',
+  margin:'8px 0 22px',
+  maxWidth:'760px'
+ });
+ return description;
+}
 function loadImage(src){return new Promise(resolve=>{const img=new Image();img.onload=()=>resolve(true);img.onerror=()=>resolve(false);img.src=src})}
 async function discoverSequence(car,extension,start=1,max=250){
  const found=[];
@@ -29,6 +47,7 @@ function makeCard(car,index){
 async function mediaExists(src){return new Promise(resolve=>{const v=document.createElement('video');v.preload='metadata';v.onloadedmetadata=()=>resolve(true);v.onerror=()=>resolve(false);v.src=src})}
 async function openGallery(car){
  document.getElementById('galleryTitle').textContent=`${car.year} ${car.name}`;
+ ensureGalleryDescription().textContent=car.description||'';
  galleryGrid.innerHTML='<p class="gallery-loading">Loading photographs…</p>';
  activeItems=[];
  if(!dialog.open)dialog.showModal();

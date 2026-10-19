@@ -3,54 +3,63 @@
     "folder": "01",
     "prefix": "AlfaGTJunior",
     "year": "1970",
-    "name": "Alfa Romeo GT 1300 Junior"
+    "name": "Alfa Romeo GT 1300 Junior",
+    "description": "A compact Italian coupé from Alfa Romeo, combining Bertone styling with a lively character and a driver-focused feel."
   },
   {
     "folder": "02",
     "prefix": "Testarossa",
     "year": "1991",
-    "name": "Ferrari Testarossa"
+    "name": "Ferrari Testarossa",
+    "description": "An unmistakable Ferrari grand tourer, known for its wide stance, signature side strakes and dramatic mid-engine design."
   },
   {
     "folder": "03",
     "prefix": "Fiat500",
     "year": "1970",
-    "name": "Fiat 500L"
+    "name": "Fiat 500L",
+    "description": "A charming city car with an instantly recognisable shape, compact proportions and an enduring place in Italian motoring history."
   },
   {
     "folder": "04",
     "prefix": "Carrera",
     "year": "1990",
-    "name": "Porsche 964"
+    "name": "Porsche 964",
+    "description": "A classic 911 generation blending the familiar air-cooled character with updated engineering and everyday usability."
   },
   {
     "folder": "05",
     "prefix": "Bianchina",
     "year": "1962",
-    "name": "Autobianchi Bianchina Cabrio"
+    "name": "Autobianchi Bianchina Cabrio",
+    "description": "A petite open-top Italian classic with elegant details and a distinctive, cheerful personality."
   },
   {
     "folder": "06",
     "prefix": "Fulvia",
     "year": "1971",
-    "name": "Lancia Fulvia HF"
+    "name": "Lancia Fulvia HF",
+    "description": "A sporting Lancia celebrated for its engineering, nimble handling and rally-bred heritage."
   },
   {
     "folder": "07",
     "prefix": "Ghibli",
     "year": "1969",
-    "name": "Maserati Ghibli"
+    "name": "Maserati Ghibli",
+    "description": "A low-slung Italian grand tourer with elegant proportions, a long bonnet and a dramatic presence."
   },
   {
     "folder": "08",
     "prefix": "Spider",
     "year": "1971",
-    "name": "Alfa Romeo Spider"
+    "name": "Alfa Romeo Spider",
+    "description": "An open two-seat Alfa Romeo roadster prized for its clean lines, engaging driving character and timeless Italian style."
   },
   {
     "folder": "09",
     "prefix": "Lamborghini350GT",
     "year": "1965",
-    "name": "Lamborghini 350 GT"
+    "name": "Lamborghini 350 GT",
+    "description": "Lamborghini’s first production grand tourer, pairing refined V12 performance with elegant coachwork."
   }
 ]
