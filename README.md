@@ -1,4 +1,4 @@
-# Italian Finds V6
+# Italian Finds V5
 
 Numbered folder structure (`assets/01/`, `assets/02/`, etc.) and supports any number of cars through `cars.json`.
 
