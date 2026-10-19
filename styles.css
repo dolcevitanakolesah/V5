@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
 :root
 {
-  --ink:##242521;
+  --ink:#242521;
   --muted:#a4a39d;
   --paper:#f6f5f0;
   --line:#30312e;
