@@ -4,8 +4,8 @@
   --ink:#242521;
   --muted:#777970;
   --paper:#f6f5f0;
-  --line:#30312e;
-  --accent:#777970
+  --line:#deded5;
+  --accent:#a44b35
 }
 *
 {
@@ -136,7 +136,7 @@ footer
   max-width:none;
   max-height:94vh;
   overflow:auto;
-  border:1px solid #343531;
+  border:1px solid #deded5;
   padding:28px;
   background:#f6f5f0;
   color:var(--ink);
@@ -152,7 +152,7 @@ footer
   float:right;
   top:0;
   border:1px solid #55564f;
-  background:#20211e;
+  background:#242521;
   color:white;
   width:38px;
   height:38px;
@@ -180,8 +180,8 @@ footer
 {
   margin:0;
   min-width:0;
-  background:#1b1c19;
-  border:1px solid #2c2d29
+  background:#e9e7df;
+  border:1px solid #deded5
 }
 .gallery-item img
 {
@@ -195,38 +195,27 @@ footer
 {
   font-size:11px;
   padding:10px 11px 12px;
-  color:#c0beb5
+  color:#55574f
 }
 .gallery-video
 {
   width:100%;
   aspect-ratio:1;
   object-fit:cover;
-  background:#050505;
+  background:#f6f5f0;
   cursor:pointer
 }
 .lightbox
 {
-  position:fixed;
-  inset:0;
-  margin:0;
   padding:56px 72px 44px;
   border:0;
   background:#f6f5f0;
-  color:#fff;
-  width:100%;
-  height:100%;
+  color:#242521;
+  width:100vw;
+  height:100vh;
   max-width:none;
   max-height:none;
   overflow:hidden
-}
-/* Use the dynamic viewport on mobile browsers so the viewer stays anchored
-   to the visible screen rather than the page's layout viewport. */
-@supports (height: 100dvh) {
-  .lightbox {
-    width:100dvw;
-    height:100dvh;
-  }
 }
 .lightbox::backdrop
 {
@@ -254,7 +243,6 @@ footer
 .lightbox-close
 {
   position:absolute;
-  z-index:10;
   right:24px;
   top:18px;
   background:transparent;
@@ -268,9 +256,9 @@ footer
   position:absolute;
   top:50%;
   transform:translateY(-50%);
-  background:#222c;
+  background:#242521cc;
   color:white;
-  border:1px solid #777;
+  border:1px solid #777970;
   width:44px;
   height:60px;
   font-size:36px;
@@ -291,7 +279,7 @@ footer
   left:0;
   right:0;
   text-align:center;
-  color:#ccc;
+  color:#55574f;
   font-size:12px
 }
 @media(max-width:760px)
@@ -329,17 +317,7 @@ footer
   }
   .lightbox
   {
-    inset:0;
-    margin:0;
-    padding:60px 12px 42px;
-    width:100%;
-    height:100%;
-  }
-  @supports (height: 100dvh) {
-    .lightbox {
-      width:100dvw;
-      height:100dvh;
-    }
+    padding:60px 12px 42px
   }
   .lightbox-arrow
   {
