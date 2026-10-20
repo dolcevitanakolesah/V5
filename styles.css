@@ -242,13 +242,19 @@ footer
 }
 .lightbox-close
 {
-  position:absolute;
-  right:24px;
+  position:fixed;
   top:18px;
+  right:24px;
+  z-index:1000;
+  display:block;
+  visibility:visible;
+  opacity:1;
   background:transparent;
-  color:white;
+  color:#242521;
   border:0;
+  padding:0 8px;
   font-size:36px;
+  line-height:1;
   cursor:pointer
 }
 .lightbox-arrow
