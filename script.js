@@ -39,14 +39,14 @@ async function discoverSequence(car,extension,start=1,max=250){
 function makeCard(car,index){
  const card=document.createElement('article');card.className='car-card';card.tabIndex=0;card.setAttribute('role','button');
  const wrap=document.createElement('div');wrap.className='car-image-wrap';
- const img=document.createElement('img');img.className='car-image';img.src=path(car,car.prefix+'-Main.jpg');img.alt=`${car.year} ${car.name}`;img.loading=index<3?'eager':'lazy';
+ const img=document.createElement('img');img.className='car-image';img.src=path(car,car.prefix+'-Main.jpg');img.alt=car.name;img.loading=index<3?'eager':'lazy';
  img.onerror=()=>{card.remove()};wrap.appendChild(img);
- const title=document.createElement('p');title.className='car-title';title.textContent=`${car.year} ${car.name}`;
+ const title=document.createElement('p');title.className='car-title';title.textContent=car.name;
  card.append(wrap,title);card.addEventListener('click',()=>openGallery(car));card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openGallery(car)}});return card;
 }
 async function mediaExists(src){return new Promise(resolve=>{const v=document.createElement('video');v.preload='metadata';v.onloadedmetadata=()=>resolve(true);v.onerror=()=>resolve(false);v.src=src})}
 async function openGallery(car){
- document.getElementById('galleryTitle').textContent=`${car.year} ${car.name}`;
+ document.getElementById('galleryTitle').textContent=car.name;
  ensureGalleryDescription().textContent=Array.isArray(car.description) ? car.description.join('\n') : (car.description||'');
  galleryGrid.innerHTML='<p class="gallery-loading">Loading photographs…</p>';
  activeItems=[];
