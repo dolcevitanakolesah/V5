@@ -187,7 +187,7 @@ footer
   max-width:760px
 }
 /* Keep JSON description line breaks and blank paragraphs visible. */
-#galleryTitle
+#galleryDescription
 {
   white-space:pre-line
 }
