@@ -15,6 +15,8 @@
       "Один владелец на протяжении последних 15 лет. Автомобиль в отличном состоянии, без следов коррозии, хранился в сухом гараже и выезжал только в солнечную погоду - для поездок по выходным и участия в автомобильных выставках."
     ]
   },
+
+  
   {
     "folder": "02",
     "prefix": "Testarossa",
@@ -31,6 +33,8 @@
       "Regularly maintained by Motor Service, an official Ferrari partner in Modena. A Ferrari Certificato di Autenticità can be requested, subject to inspection and approval."
     ]
   },
+
+  
   {
     "folder": "03",
     "prefix": "Fiat500",
@@ -47,14 +51,26 @@
       "Now, this little Italian icon awaits someone willing to bring her back to life and give her a new chapter. Is she worth waking up?"
     ]
   },
+
+  
   {
     "folder": "04",
     "prefix": "Carrera",
     "name": "1990 Porsche 964",
     "description": [
+      "1990 Porsche 911 / 964 <Tiptronic> ",
+      "Пробег: 96,000 Km. ",
+      "Объём двигателя: 3,600 cc ",
+      "Мощность: 247 HP",
+      "Цена: 58000 Euro",
+      "    ",
+      "A classic 911 generation blending the familiar air-cooled character with updated engineering and everyday usability.",
+      "    ",
       "A classic 911 generation blending the familiar air-cooled character with updated engineering and everyday usability."
     ]
   },
+
+  
   {
     "folder": "05",
     "prefix": "Bianchina",
