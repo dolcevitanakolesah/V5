@@ -21,7 +21,8 @@ body
   background:var(--paper);
   color:var(--ink);
   font-family:'DM Sans',sans-serif;
-  -webkit-font-smoothing:antialiased
+  -webkit-font-smoothing:antialiased;
+  font-weight: 500;
 }
 a
 {
