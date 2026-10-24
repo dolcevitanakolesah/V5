@@ -87,14 +87,28 @@
       "A promising restoration project, with a healthy, protected underbody and well-preserved upholstery. It mainly needs a new roof and a general refresh to bring back its original charm."
     ]
   },
+
+  
   {
     "folder": "06",
     "prefix": "Fulvia",
-    "name": "1971 Lancia Fulvia HF",
+    "name": "Born to Win: 1971 Lancia Fulvia HF",
     "description": [
-      "A sporting Lancia celebrated for its engineering, nimble handling and rally-bred heritage."
+      "1971 Lancia Fulvia HF <Lusso> ",
+      "Пробег: 78,000 Km. ",
+      "Объём двигателя: 1,584 cc ",
+      "Мощность: 115 HP",
+      "Цена: 46000 Euro",
+      "    ",
+      "A true rally legend that dominated the championships of the late ’60s and early ’70s. This example spent its entire life in Sicily until its current owner brought it to Paris ten years ago.",
+      "    ",
+      "Now fitted with a brand-new, race-tuned engine, it’s ready to chase new victories.
+
+A special car for special drivers, where the passion for Italian classics meets the thrill of competition."
     ]
   },
+
+
   {
     "folder": "07",
     "prefix": "Ghibli",
@@ -103,6 +117,8 @@
       "A low-slung Italian grand tourer with elegant proportions, a long bonnet and a dramatic presence."
     ]
   },
+
+
   {
     "folder": "08",
     "prefix": "Spider",
@@ -111,6 +127,8 @@
       "An open two-seat Alfa Romeo roadster prized for its clean lines, engaging driving character and timeless Italian style."
     ]
   },
+
+
   {
     "folder": "09",
     "prefix": "Lamborghini350GT",
